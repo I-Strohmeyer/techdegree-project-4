@@ -1,9 +1,14 @@
 @import 'base/index', 'component/index', 'utilities/index';
 
 
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
 
 * {
     font-family: $font-primary;
+    color: $fontcolor-primary;
+    box-sizing: border-box;
 }
 
 p {
@@ -12,4 +17,33 @@ p {
 
 a {
     text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+.headline-primary {
+    color: $primary-accent-color;;
+    margin-left: 10px;
+}
+
+.headline-secondary {
+    font-weight: $weight-primary;
+    color: $fontcolor-secondary;
+}
+
+.link {
+    color: $secondary-accent-color;
+    font-weight: $weight-secondary;
+}
+
+.blockquote {
+    font-size: 1.5em;
+    font-weight: $weight-primary;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $primary-accent-color;
+    border-radius: 5px;
 }
