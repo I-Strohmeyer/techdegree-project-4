@@ -1,1 +1,15 @@
 @import 'base/index', 'component/index', 'utilities/index';
+
+
+
+* {
+    font-family: $font-primary;
+}
+
+p {
+    line-height: $p-line-height;
+}
+
+a {
+    text-decoration: none;
+}
