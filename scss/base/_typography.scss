@@ -2,8 +2,10 @@
 /*              Typography                       */
 /* ============================================= */
 
+@import '../utilities/variables';
+
 .headline-primary {
-    color: $primary-accent-color;;
+    color: $primary-accent-color;
     margin-left: 10px;
 }
 
